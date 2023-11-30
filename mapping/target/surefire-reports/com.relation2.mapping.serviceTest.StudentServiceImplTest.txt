@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: com.relation2.mapping.serviceTest.StudentServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! -- in com.relation2.mapping.serviceTest.StudentServiceImplTest
+com.relation2.mapping.serviceTest.StudentServiceImplTest.testAddOrUpdateWithNewStudent -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "" does not match the expected package "com.relation2.mapping.serviceTest"
+
+	at com.relation2.mapping.serviceTest.StudentServiceImplTest.<init>(StudentServiceTest.java:1)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.relation2.mapping.serviceTest.StudentServiceImplTest.testUpdateLaptops -- Time elapsed: 0 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "" does not match the expected package "com.relation2.mapping.serviceTest"
+
+	at com.relation2.mapping.serviceTest.StudentServiceImplTest.<init>(StudentServiceTest.java:1)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.relation2.mapping.serviceTest.StudentServiceImplTest.testFetchAll -- Time elapsed: 0 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "" does not match the expected package "com.relation2.mapping.serviceTest"
+
+	at com.relation2.mapping.serviceTest.StudentServiceImplTest.<init>(StudentServiceTest.java:1)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.relation2.mapping.serviceTest.StudentServiceImplTest.testAddOrUpdateWithExistingStudent -- Time elapsed: 0 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "" does not match the expected package "com.relation2.mapping.serviceTest"
+
+	at com.relation2.mapping.serviceTest.StudentServiceImplTest.<init>(StudentServiceTest.java:1)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: StudentServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.044 s <<< FAILURE! -- in StudentServiceImplTest
+StudentServiceImplTest.testAddOrUpdateWithNewStudent -- Time elapsed: 0.029 s <<< FAILURE!
+Argument(s) are different! Wanted:
+repo.findById(
+    2L
+);
+-> at StudentServiceImplTest.testAddOrUpdateWithNewStudent(StudentServiceTest.java:64)
+Actual invocations have different arguments:
+repo.findById(
+    0L
+);
+-> at com.relation2.mapping.Service.StudentServiceImpl.addOrUpdate(StudentServiceImpl.java:36)
+repo.save(
+    com.relation2.mapping.entity.Student@672c4e24
+);
+-> at com.relation2.mapping.Service.StudentServiceImpl.addOrUpdate(StudentServiceImpl.java:50)
+
+	at StudentServiceImplTest.testAddOrUpdateWithNewStudent(StudentServiceTest.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+StudentServiceImplTest.testAddOrUpdateWithExistingStudent -- Time elapsed: 0.004 s <<< FAILURE!
+Argument(s) are different! Wanted:
+repo.findById(
+    1L
+);
+-> at StudentServiceImplTest.testAddOrUpdateWithExistingStudent(StudentServiceTest.java:46)
+Actual invocations have different arguments:
+repo.findById(
+    0L
+);
+-> at com.relation2.mapping.Service.StudentServiceImpl.addOrUpdate(StudentServiceImpl.java:36)
+repo.save(
+    com.relation2.mapping.entity.Student@51c0346d
+);
+-> at com.relation2.mapping.Service.StudentServiceImpl.addOrUpdate(StudentServiceImpl.java:50)
+
+	at StudentServiceImplTest.testAddOrUpdateWithExistingStudent(StudentServiceTest.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
